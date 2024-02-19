@@ -32,19 +32,19 @@ nav ul {
    gap: 48px;
 }
 
-a {
+nav a {
    font-family: "Mulish", sans-serif;
    font-size: 18px;
-   color: #1F1534;
-}
-
-nav a {
    opacity: 0.5;
 }
 
 nav a:hover {
    font-weight: bold;
    opacity: 1;
+}
+
+a {
+   color: #1F1534;
 }
 
 main {
@@ -100,7 +100,7 @@ footer {
    text-align: center;
 }
 
-footer, footer a {
+footer {
    font-family: "Open Sans", sans-serif;
    font-size: 14px;
    line-height: 28px;
